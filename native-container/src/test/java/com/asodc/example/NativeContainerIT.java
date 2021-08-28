@@ -15,8 +15,8 @@ public class NativeContainerIT {
     @Configuration
     public Option[] config() {
         return CoreOptions.options(
-                // if you don't do this the container will try to contact maven central and fail inside MMS network
-                repository("https://artifacts.mms-at-work.de/artifactory/prj-esb-mms-build-release").id("central"),
+                // if you want to get the container to use a different repo
+                // repository("someUrl").id("central"),
                 // allows test to fail fast if a bundle can't be resolved
                 systemProperty("pax.exam.osgi.unresolved.fail").value("true"),
                 junit()
