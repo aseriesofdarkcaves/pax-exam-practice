@@ -1,4 +1,4 @@
-# esb-integration-tests
+# pax-exam-practice
 
 The base code was adopted from [here](https://github.com/cschneider/osgi-testing-example).
 
