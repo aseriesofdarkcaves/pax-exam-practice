@@ -25,6 +25,7 @@ public class NativeContainerIT {
 
     @Test
     public void simpleTest() {
+        System.out.println("************************* IN TEST METHOD! *************************");
         assertTrue(true);
     }
 
